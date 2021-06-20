@@ -1,5 +1,6 @@
 use core::num;
 mod kmp;
+mod binary_search;
 fn main() {
     // let rs = sum_base(25, 3);
     // println!("{}", rs);
@@ -8,7 +9,7 @@ fn main() {
     let x = remove_duplicates(&mut v);
 
     let haystack = String::from("测试123测试");
-    let needle = "试".to_string();
+    let needle = "测".to_string();
     let res = kmp::Solution::str_str(haystack, needle);
     println!("{:?}", res);
 }
