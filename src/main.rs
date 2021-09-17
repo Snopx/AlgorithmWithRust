@@ -1,12 +1,14 @@
 use core::num;
 mod kmp;
 mod binary_search;
+mod bubble_sort;
+mod insertion_sort;
 fn main() {
     // let rs = sum_base(25, 3);
     // println!("{}", rs);
 
-    let mut v = vec![1, 1, 2];
-    let x = remove_duplicates(&mut v);
+    // let mut v = vec![1, 1, 2];
+    // let x = remove_duplicates(&mut v);
 
     let haystack = String::from("测试123测试");
     let needle = "测".to_string();
